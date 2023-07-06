@@ -15,7 +15,7 @@ gsap.timeline().add({
     delay: (el, i) => 2400 + 30 * i,
 });
 
-gsap.from(".loader-wrapper, .loader-wrapper::after", 2, {
+gsap.from(".loader-wrapper", 2, {
     scale: 0.8,
     ease: "power1.inOut",
 });
